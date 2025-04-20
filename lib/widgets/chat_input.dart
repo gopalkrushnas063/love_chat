@@ -36,9 +36,9 @@ class _ChatInputState extends State<ChatInput> {
 
       _messageController.clear();
     } catch (e) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(content: Text('Error sending message: $e')),
-      );
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(SnackBar(content: Text('Error sending message: $e')));
     }
   }
 
@@ -51,15 +51,18 @@ class _ChatInputState extends State<ChatInput> {
           Expanded(
             child: TextField(
               controller: _messageController,
+              style: const TextStyle(color: Colors.white),
+              cursorColor: Colors.white,
               decoration: const InputDecoration(
                 hintText: 'Type a message...',
+                hintStyle: TextStyle(color: Colors.white54),
                 border: OutlineInputBorder(),
               ),
               onSubmitted: (_) => _sendMessage(),
             ),
           ),
           IconButton(
-            icon: const Icon(Icons.send),
+            icon: const Icon(Icons.send, color: Colors.deepPurple),
             onPressed: _sendMessage,
           ),
         ],
