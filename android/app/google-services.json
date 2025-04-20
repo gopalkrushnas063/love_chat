@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "758440657972",
+    "project_id": "love-chat-f93fa",
+    "storage_bucket": "love-chat-f93fa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758440657972:android:5036c2618992603c63b661",
+        "android_client_info": {
+          "package_name": "com.example.love_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758440657972-m6i8bvtmsfijnoqemehp1pkvisumue4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAytswHhZV4zH0H-JfqjXCW6YMAW16n1N8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758440657972-m6i8bvtmsfijnoqemehp1pkvisumue4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
